@@ -1,10 +1,9 @@
 # AlamRES14
 195410046_MUHAMMMAD DZUHRI ALAMSYAH_KELAS TI 1<br>
 <p><b>Membuat docker container dengan docker file</b>
-<br>
+<br/>
 Buat file di docker toolbox C:\Program Files\Docker Toolbox
 ![image](https://user-images.githubusercontent.com/71113482/103167952-15858980-4862-11eb-9014-9c17481b033a.png)
-
 kemudian buat file Dockerfile didalam direktori yang sudah anda buat contoh 195410046 isi file docker sbb:
 ![image](https://user-images.githubusercontent.com/71113482/103167287-8de94c00-485c-11eb-8ab8-40817527fee7.png)
 buat direktori file di dalam direktori nim(195410046) yang berisis
@@ -29,8 +28,35 @@ kemudian buka browser dan ketikan url http://192.168.99.100:8000/ jika web menam
 <b>Build image menggunakan github ke docker hub </b>
 buat repo, disini saya menggunakan nama AlamRES14
 ![image](https://user-images.githubusercontent.com/71113482/103167704-11586c80-4860-11eb-97cd-ed45dbac8baa.png)
+<br>
 kemudian clone repo menggunakan git bash, seperti gambbar ini
 ![image](https://user-images.githubusercontent.com/71113482/103167715-3351ef00-4860-11eb-980f-9c1898328c47.png)
+<br>
 jalankan perintah git clone alamat repo, contoh 
 ![image](https://user-images.githubusercontent.com/71113482/103167741-52508100-4860-11eb-8a96-19b74af7a1ef.png)
+<br>
+kemudian masukan file nim ke dalam direktori yg sudah di clone tadi, kemudian pindah ke direktori yg sudah terclone tadi dgn cara "cd namadirektori"<br>
+![image](https://user-images.githubusercontent.com/71113482/103168036-a9575580-4862-11eb-91e7-388e9c668f68.png)
+<br/>
+kemudian push repo dgn cara sbb:<br>
+sebelum itu kita harus login dulu dgn cara "git config --global user.name "nama" dan "git config --global user.email "email " sbb
+![image](https://user-images.githubusercontent.com/71113482/103168122-2256ad00-4863-11eb-8fc1-673a3e90581f.png)
+cara cek menggunakan "git config --list"
+![image](https://user-images.githubusercontent.com/71113482/103168136-34d0e680-4863-11eb-9ab2-e2322e907749.png)
+"git init" : untuk membuat repository pada file lokal yang nantinya ada folder 
+"git add *" : untuk menambahkan file kedalam gihub<br>
+"git commit" : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada repo<br>
+ Git push : untuk mengirimkan perubahan file setelah di commit ke remote repo<br>
+ ![image](https://user-images.githubusercontent.com/71113482/103168226-f8ea5100-4863-11eb-8a77-6d6a39e68983.png)
+![image](https://user-images.githubusercontent.com/71113482/103168231-fe479b80-4863-11eb-87d1-bcc907c38e00.png)
+kemudian akan muncul perintah login ke github
+![image](https://user-images.githubusercontent.com/71113482/103168243-10c1d500-4864-11eb-9780-24e9672225f6.png)
+<br>
+kemudian hubungkan git dgn github anda
+![image](https://user-images.githubusercontent.com/71113482/103168258-2800c280-4864-11eb-99e1-55a70fcbfadb.png)
+<br>
+kemudian cek repo github anda apakah file sudah terupload belum
+![image](https://user-images.githubusercontent.com/71113482/103168283-4bc40880-4864-11eb-8789-3cf5e18946e6.png)
+
+
 </p>
