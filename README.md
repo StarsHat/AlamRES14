@@ -1,9 +1,10 @@
 # AlamRES14
 195410046_MUHAMMMAD DZUHRI ALAMSYAH_KELAS TI 1<br>
-<p><b>Membuat docker container dengan docker file</b>
-<br>
+<p>
+  <b>Membuat docker container dengan docker file</b>
+  <br>
 Buat file di docker toolbox C:\Program Files\Docker Toolbox<br>
-![image](https://user-images.githubusercontent.com/71113482/103167952-15858980-4862-11eb-9014-9c17481b033a.png)
+![image](https://user-images.githubusercontent.com/71113482/103168436-d2c5b080-4865-11eb-8f25-8fa8db95d674.png)<br>
 kemudian buat file Dockerfile didalam direktori yang sudah anda buat contoh 195410046 isi file docker sbb:<br>
 ![image](https://user-images.githubusercontent.com/71113482/103167287-8de94c00-485c-11eb-8ab8-40817527fee7.png)
 buat direktori file di dalam direktori nim(195410046) yang berisis</br>
@@ -25,8 +26,9 @@ cek apakah images bisa dijalankan menggunakan perintah “ docker run -d -p 8000
 kemudian buka browser dan ketikan url http://192.168.99.100:8000/ jika web menampilkan file index.html maka images berhasil dijalankan
 ![image](https://user-images.githubusercontent.com/71113482/103167648-82e3eb00-485f-11eb-9135-aa54e176318d.png)
 
-<b>Build image menggunakan github ke docker hub </b>
-buat repo, disini saya menggunakan nama AlamRES14
+
+<b>Build image menggunakan github ke docker hub </b><br>
+buat repo, disini saya menggunakan nama AlamRES14<br>
 ![image](https://user-images.githubusercontent.com/71113482/103167704-11586c80-4860-11eb-97cd-ed45dbac8baa.png)
 <br>
 kemudian clone repo menggunakan git bash, seperti gambbar ini
@@ -55,7 +57,45 @@ kemudian hubungkan git dgn github anda<br>
 ![image](https://user-images.githubusercontent.com/71113482/103168258-2800c280-4864-11eb-99e1-55a70fcbfadb.png)
 <br>
 kemudian cek repo github anda apakah file sudah terupload belum<br>
-![image](https://user-images.githubusercontent.com/71113482/103168283-4bc40880-4864-11eb-8789-3cf5e18946e6.png)
+![image](https://user-images.githubusercontent.com/71113482/103168283-4bc40880-4864-11eb-8789-3cf5e18946e6.png)<br>
+buka docker hub kemudian login<br>
+creat repo<br>
+![image](https://user-images.githubusercontent.com/71113482/103168487-30f29380-4866-11eb-8bbc-0b0f03ee2ad9.png)<br>
+hubungkan akun docker hub ke github<br>
+![image](https://user-images.githubusercontent.com/71113482/103168502-4962ae00-4866-11eb-8572-905fc2908edc.png)
+<br>
+![image](https://user-images.githubusercontent.com/71113482/103168507-55e70680-4866-11eb-8576-7ea930f0384a.png)
+<br>
+kemudian kembali ke menu create repo<br>
+![image](https://user-images.githubusercontent.com/71113482/103168518-74e59880-4866-11eb-9b94-81d81c419f10.png)
+<br> isi nama repo kemudian public klik connected pilih akun github anda dan repo github anda <br>
+![image](https://user-images.githubusercontent.com/71113482/103168547-a3637380-4866-11eb-9cdb-da71964b6cac.png)
+kemudian creat
+<br>
+setelah selesai di buat  klik tab build<br>
+![image](https://user-images.githubusercontent.com/71113482/103168565-c8f07d00-4866-11eb-9436-7842960bb0ad.png)
+<br>
+kemudian klik triger untuk mengupload file<br>
+![image](https://user-images.githubusercontent.com/71113482/103168574-e9b8d280-4866-11eb-8604-b9d12068e1f1.png)
+<br> tunggu beberapa menit sampai succes<br>
+kemudian cek apakah docker images sudah berhasil dibuat dan dijalankan klik public view kemudian liat apakah sudah ada docker pull cmd<br>
+![image](https://user-images.githubusercontent.com/71113482/103168644-92ffc880-4867-11eb-88dd-5161480681e1.png)
+<br>
+cek apakah images bisa d jalankan kita menggunakan “katacoda.com”. Jalankan perintah “docker pull idnama/tccResponsi14” dan jalankan perintah “docker run -d -p 8000:80 --name nim-anda nama-image” seperti contoh dibawah ini<br>
+![image](https://user-images.githubusercontent.com/71113482/103168662-bd518600-4867-11eb-9e61-bd152ed121d5.png)
+<br>
+![image](https://user-images.githubusercontent.com/71113482/103168676-c9d5de80-4867-11eb-9484-26254d1d27e6.png)
+<br>
+Klik tanda “+” pada terminal kemudian pilih “Select port to view on Host 1” seperti contoh dibawah ini<br>
+![image](https://user-images.githubusercontent.com/71113482/103168683-d9552780-4867-11eb-9967-10a2bef2d4ce.png)
+<br>
+Setelah itu ketikkan kode port “8000” kemudian klik “Display Port” seperti contoh dibawah ini.<br>
+![image](https://user-images.githubusercontent.com/71113482/103168699-f1c54200-4867-11eb-9844-5d320aad0b55.png)
+<br>
+jika muncul isi file index.html maka images berjalan<br>
+![image](https://user-images.githubusercontent.com/71113482/103168710-128d9780-4868-11eb-8384-31eb7524e7dd.png)
+<br>
+
 
 
 </p>
